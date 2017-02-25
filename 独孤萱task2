@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset=utf-8><title>独孤萱task-1</title>
+	<style>
+	body {background-color:#cdcd9a;margin:0;padding:0;}
+	body h2 {padding-top:20px;}
+	body h3 {color:#8b8878;margin-left:20px;}
+	body p {word-wrap:break-word;word-break:break-all;}
+	.note {color:#8b7355;font-style:italic;font-size:15px;}
+	
+	#head {background-color:#000000;height:80px;}
+	#head h1 {display:inline;color:#ffffff;margin-left:20px;}
+	#head li {display:inline;margin-right:5px;}
+	#head ul {display:inline;position:absolute;right:50px;}
+	#head a {color:#28ff28;}
+	
+	#artical1 {margin:30px;background-color:#ffffff;text-indent:30px;border-style:groove;}
+	#artical1 p {margin:20px;}
+	
+	#artical2 {margin:30px;background-color:#ffffff;text-indent:30px;border-style:groove;}
+	#artical2 p {margin:20px;}
+	
+	#artical3 {margin:30px;background-color:#ffffff;text-indent:30px;border-style:groove;}
+	#artical3 img {height:150px;width:150px;margin-left:100px;}
+	
+	#artical4 {margin:30px;background-color:#ffffff;text-indent:30px;border-style:groove;}
+	#artical4 table {align:center;width:90%;}
+	#artical4 th {background-color:#000000;color:#ffffff;}
+	.total {background-color:#cdcd9a;}
+	
+	#table {margin:30px;background-color:#ffffff;border-style:groove;text-indent:30px;}
+	#table form {margin-left:200px;}
+	.inputnote {color:#8b8878;padding-left:100px;}
+	#table p {margin-left:200px;}
+	#table button {align:center;background-color:blue; width:95%;height:50px;font-weight:bold;font-size:20px;}
+	
+	#foot {background-color:#000000;text-align:center;height:70px;}
+	#foot p {color:#ffffff;}
+	</style>
+</head>
+
+<body>
+	<div id="head">
+	    <br>
+		<h1>独孤萱的学习旅途</h1>
+			<ul type="disc">
+				<li><a href="#导航一">文章二链接</a></li>
+				<li><a href="#导航二">图片链接</a></li>
+				<li><a href="#导航三">文章三链接</a></li>
+				<li><a href="#导航四">表格链接</a></li>
+			</ul>
+	</div>	
+	
+	<div id="artical1">
+	<h2>文章一标题</h2>
+	<h3>文章二级标题</h3>
+		<p class="note">文章作者&nbsp;&nbsp;&nbsp;文章发表时间</p>
+		<p>这是一个很长很长的段落，这是一长很长的段落，这是一个很长很长的段落，该换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">链接到http://ife.baidu.com</a>这是一个很长很长的段落，<b>这里是粗体字</b>,这是一个很长很长的段落.
+		</p>
+		<p style="margin-left:20px"><img src="./image6.jpg" width="300" height="300"></p>
+		<p>这是一个很长很长的段落，这是一长很长的段落，这是一个很长很长的段落，该换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">链接到http://ife.baidu.com</a>这是一个很长很长的段落，<b>这里是粗体字</b>,这是一个很长很长的段落.
+		</p><br>
+	</div>
+	
+	<div id="artical2">
+	<h2><a id="导航一">文章二标题</a></h2>
+	<h3>文章二级标题</h3>
+		<p class="note">文章作者&nbsp;&nbsp;&nbsp;文章发表时间</p>
+		<p>这是一个很长很长的段落，这是一长很长的段落，这是一个很长很长的段落，该换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">链接到http://ife.baidu.com</a>这是一个很长很长的段落，<b>这里是粗体字</b>,这是一个很长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，这是一长很长的段落，
+		</p>
+		<p style="margin-left:20px"><img src="./image6.jpg" width="300" height="300"></p>
+			<ul>
+			<li>列表项目一</li><li>列表项目二</li><li>列表项目三</li>
+			</ul>
+		<br>
+	</div>
+
+	<div id="artical3">
+	<h2><a id="导航二">图片</a></h2>
+		<p style="margin-left:20px">好看的图片一</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片二</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片三</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片四</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片五</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片六</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片七</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p>
+		<p style="margin-left:20px">好看的图片八</p>
+		<p style="margin-left:20px"><img src="./image6.jpg"></p><br>
+	</div>
+
+	<div id="artical4">
+	<h2><a id="导航三">文章三标题</a></h2>
+	<h3>文章二级标题</h3>
+	<p class="note">文章作者&nbsp;&nbsp;&nbsp;文章发表时间</p>
+		<ol>
+		<li>排名1</li><li>排名2</li><li>排名3</li>
+		</ol>
+	<p>下面是一个表格</P>
+		<table border="1" align="center">
+			<tr>
+				<th>表头</th><th>表头</th><th>表头</th>
+			</tr>
+			<tr>
+				<td>表格内容单元格</td><td>表格内容单元格</td><td><a href="http://www.baidu.com">操作</a></td>
+			</tr>
+			<tr>
+				<td>表格内容单元格</td><td>表格内容单元格</td><td><a href="http://www.baidu.com">操作</a></td>
+			</tr>
+			<tr class="total">
+				<td>总计</td><td colspan="2">1000</td>
+			</tr>
+		</table><br>
+	</div>
+
+	<div id="table">
+	<h2><a id="导航四">以后侧栏的标题</a></h2>	
+		<form>
+		请输入邮箱：<input type="text" name="邮箱地址"></form>
+		<p class="inputnote">邮箱地址请按照格式要求输入</p><br>
+		<form>请输入密码：<input type="password" name="密码">&nbsp;&nbsp;&nbsp;请重复输入密码：<input type="password" name="密码2"></form>
+		<p class="inputnote">密码为6-16位英文数字</p>
+		</form>
+			<form >性别：<input type="radio" name="sex">男&nbsp;<input type="radio" name="sex">女</form>
+		    <form >城市：<select name="city"><option>北京</option><option>上海</option><option>深圳</option><option>成都</option></select></form>
+			<form >爱好：<input type="checkbox">运动&nbsp;<input type="checkbox">艺术&nbsp;<input type="checkbox">科学</form>
+			<p>个人描述：<textarea rows="2" cols="80" style="display:inline">输入您的个人描述</textarea><br><br>
+			<button type="submit">确认提交</button>
+		</p><br>
+	</div>
+	
+	<div id="foot">
+	<br><p>版权所有@萱</p>
+	</div>
+
+</body>
+</html>
